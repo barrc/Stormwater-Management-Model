@@ -66,6 +66,7 @@ init:
   - set BUILD_HOME=buildprod
   - set TEST_HOME=nrtestsuite
   - set NRTEST_SCRIPT=C:\Python27\Scripts
+  - set CTEST_OUTPUT_ON_FAILURE=TRUE
   # See set values
   - echo %APPVEYOR_BUILD_WORKER_IMAGE%
   - echo %BUILD_HOME%
