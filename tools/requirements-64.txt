@@ -1,5 +1,5 @@
 #
-# requirements-appveyor.txt 
+# requirements-64.txt 
 # 
 # Date Created: 3/15/2018
 # Author: Michael E. Tryby
@@ -7,7 +7,7 @@
 # 
 # Useful for configuring a python environment to run swmm-nrtestsuite. 
 #
-# command: pip install -r tools/requirements-appveyor.txt
+# command: pip install -r tools/requirements-64.txt
 #
 
 
