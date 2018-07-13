@@ -48,12 +48,12 @@ curl -fsSL -o benchmark.zip %BENCHFILES_URL%
 
 
 :: extract tests and benchmarks
-7z x examples.zip *\swmm-tests\* > nul
-7z x benchmark.zip -obenchmark\ > nul
+7za x examples.zip *\swmm-tests\* > nul
+7za x benchmark.zip -obenchmark\ > nul
 
 :: set up symlink for tests directory
-mklink /D .\tests .\swmm-example-networks-%EXAMPLES_VER%\swmm-tests
-
+:: mklink /D .\tests .\swmm-example-networks-%EXAMPLES_VER%\swmm-tests
+cp -R swmm-example-networks-%EXAMPLES_VER%\swmm-tests\. tests
 
 :: generate json configuration file for software under test
 mkdir apps
