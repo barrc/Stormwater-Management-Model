@@ -30,7 +30,6 @@ Purpose: allow me to reproduce this :)
 
 - Run ctest if you want
 ```
->cd ..
 >cd tests
 >ctest -C Debug
 >cd ../..
