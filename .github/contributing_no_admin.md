@@ -8,7 +8,7 @@ Purpose: allow me to reproduce this :)
 - At anaconda prompt, create and activate a new conda environment
 
 ```
->conda create -n owaswmm cmake boost git curl python=2 7za
+>conda create -n owaswmm cmake boost git curl python=2 7za --channel conda-forge
 >conda activate owaswmm
 ```
 
