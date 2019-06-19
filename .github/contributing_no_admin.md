@@ -20,13 +20,26 @@ Purpose: allow me to reproduce this :)
 >cd Stormwater-Management-Model
 ```
 
-- Build
+- Build (my Visual Studio)
 ```
 >mkdir buildprod
 >cd buildprod
 >cmake -G "Visual Studio 12 2013" -DBoost_USE_STATIC_LIBS="ON" ..
 >cmake --build . --config Debug
 ```
+
+- Build (modern Visual Studio)
+```
+>mkdir buildprod
+>cd buildprod
+>cmake -G "Visual Studio 15 2017" -DBoost_USE_STATIC_LIBS="ON" ..
+>cmake --build . --config Debug
+```
+
+
+
+Below: old
+
 
 - Run ctest if you want
 ```
