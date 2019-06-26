@@ -71,11 +71,10 @@ ctest -C Release
 ## Subsequent times
 
 ```
-mkdir buildprod
-cd buildprod
+cd owa\Stormwater-Management-Model\buildprod
 cmake -G "Visual Studio 15 2017" -DBoost_USE_STATIC_LIBS="ON" ..
 cmake --build . --config Release
-mkdir nrtestsuite
+cd ..
 set BUILD_HOME=buildprod
 set TEST_HOME=nrtestsuite
 set PLATFORM=win64
